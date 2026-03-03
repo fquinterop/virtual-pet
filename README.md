@@ -2,88 +2,51 @@
 
 _Tienda virtual especializada en la comercialización de productos para mascotas._
 
-## Introducción / Contexto
+---
 
-_En la actualidad, el crecimiento en la tenencia de mascotas ha generado una mayor demanda de productos esenciales como alimentos, accesorios y medicamentos. No obstante, muchos establecimientos tradicionales no cuentan con plataformas digitales eficientes que permitan gestionar inventarios, visualizar productos y realizar compras en línea de manera estructurada y segura. Esta situación evidencia la necesidad de desarrollar una solución tecnológica que centralice la comercialización de productos para mascotas en un entorno digital accesible y confiable._
+## Descripción del Proyecto
 
-_La implementación de una tienda virtual como Virtual Pet resulta relevante desde el punto de vista social y empresarial, ya que facilita el acceso a productos esenciales para el bienestar animal, optimiza los procesos de venta y amplía el alcance comercial de los negocios del sector. Desde el ámbito académico, el proyecto permite aplicar conocimientos de arquitectura de software, desarrollo backend y gestión de dependencias, integrando tecnologías modernas del ecosistema Java._
+**Virtual Pet** es una plataforma de comercio electrónico orientada a la venta de productos para mascotas: alimentos, accesorios y medicamentos. El sistema cuenta con un backend en **Spring Boot** y un frontend en **React + Vite**, comunicados mediante una API REST.
 
-_Virtual Pet se desarrolla dentro del dominio del comercio electrónico (e-commerce) y los sistemas de información, utilizando Maven como herramienta de gestión y construcción del proyecto, y Spring Boot como framework principal para la creación de una aplicación backend robusta, escalable y estructurada bajo buenas prácticas de desarrollo. De esta manera, el proyecto simula un entorno real de tienda online especializada en productos para mascotas._
+---
 
-## Objetivos
+## Versiones de Software
 
-**Objetivo general**
+| Herramienta | Versión |
+|-------------|---------|
+| Node.js     | 18.x o superior |
+| npm         | 9.x o superior  |
+| Java        | 17              |
+| Maven       | 3.8.x           |
+| Git         | 2.x             |
 
-_Desarrollar una tienda virtual para mascotas utilizando Spring Boot y Maven que permita gestionar y comercializar productos de manera eficiente, segura y estructurada._
+---
 
-**Objetivos específicos**
+## Comandos de Instalación
 
-_1.Diseñar e implementar la arquitectura backend del sistema utilizando Spring Boot bajo el patrón de capas (controlador, servicio y repositorio)._
+```bash
+# 1. Clonar el repositorio
+git clone https://github.com/fquinterop/virtual-pet.git
 
-_2.Configurar y gestionar las dependencias del proyecto mediante Maven para garantizar una estructura organizada y mantenible._
+# 2. Entrar al proyecto
+cd virtual-pet
 
-_3.Implementar funcionalidades CRUD para la administración de productos (alimentos, accesorios y medicamentos)._
+# 3. Instalar dependencias
+npm install
 
-_4.Integrar una base de datos para el almacenamiento y consulta persistente de la información de productos._
+# 4. Ejecutar en modo desarrollo
+npm run dev
+```
 
-_5.Validar y documentar los endpoints de la aplicación para asegurar su correcto funcionamiento y facilitar futuras integraciones._
+La aplicación estará disponible en `http://localhost:5173`
 
-## Alcance del proyecton (Scope)
+---
 
-**¿Qué se va a desarrollar?**
+## Autores
 
-_*Desarrollo del backend de la tienda virtual utilizando Spring Boot._
-
-_*Gestión del proyecto y sus dependencias mediante Maven._
-
-_*Implementación de funcionalidades básicas para administrar productos (crear, listar, actualizar y eliminar alimentos, accesorios y medicamentos)._
-
-_*Conexión a una base de datos para almacenar la información de los productos._
-
-_*Desarrollo de un frontend en React (en el marco de otra asignatura) que permitirá a los usuarios visualizar los productos y realizar compras._
-
-_*Integración de una pasarela de pagos en modo de prueba (sandbox) para simular el proceso de compra dentro de la tienda virtual._
-
-_*Comunicación entre el frontend y el backend mediante servicios web (API REST)._
-
-
-**¿Qué NO se va a desarrollar en esta versión (fuera de alcance)?**
-
-_*Aplicación móvil para dispositivos Android o iOS._
-
-_*Implementación de múltiples servicios independientes (microservicios)._
-
-_*Integración con empresas reales de envíos o seguimiento de paquetes._
-
-_*Despliegue en servidores empresariales o infraestructura avanzada en la nube._
-
-_*Sistema de seguridad avanzado con configuraciones empresariales complejas.*
-
-## Tecnologías y Herramientas (Tech Stack)
-
-_**Backend:** Spring Boot (versión 3.x), Java 17, Spring Data JPA._
-
-_**Frontend:** React (desarrollado en el marco de otra asignatura para consumir la API REST del backend)._
-
-_**Base de datos:** H2 para pruebas en entorno de desarrollo y PostgreSQL para almacenamiento persistente._
-
-
-**OTRAS HERRAMIENTAS**
-
-_**Gestión de dependencias y construcción:** Maven._
-
-_**Control de versiones:** Git y GitHub._
-
-_**Pruebas de API:** Postman._
-
-
-
-## Integrantes del Equipo
-
-| Nombre | Rol principal | Usuario GitHub |
-|--------|---------------|----------------|
-| Yuly Marcela Sepúlveda | Líder del proyecto / Backend | @sepumarcela |
-| Mariana Rivera Perez | Frontend (React) | @MarianaRPerez8 |
-| Felipe Quintero Pulgarin | Backend / Base de datos | @fquinterop |
-| Kevin Martinez | Integración y pruebas | @kevinM0022 |
+| Nombre | Rol | Usuario GitHub |
+|--------|-----|----------------|
+| Yuly Marcela Sepúlveda | Líder / Backend | [@sepumarcela](https://github.com/sepumarcela) |
+| Mariana Rivera Pérez | Frontend (React) | [@MarianaRPerez8](https://github.com/MarianaRPerez8) |
+| Felipe Quintero Pulgarín | Backend / Base de datos | [@fquinterop](https://github.com/fquinterop) |
 
